@@ -5,7 +5,7 @@
 JOB_URl = "https://empleos-salud-digna.pandape.computrabajo.com/Detail/7729244"
 
 
-## 2. mimic the data structure required for the payload
+## 2. mimic the data structure required for the payload ----> needs refactor!
 
 experience_id = str(uuid.uuid4())
 study_id = str(uuid.uuid4())
