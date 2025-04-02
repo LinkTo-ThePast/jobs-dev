@@ -51,7 +51,7 @@ payload = {
     "AddressNumber": "7",
     "AddressComplement": "",
     
-    # Deficiencies (structured as they appear in the original payload)
+    
     "Deficiencies.Index": [0, 1, 2, 3, 4, 5, 6],
     "Deficiencies[0].Deficiencies2.Index": [0, 1, 2, 3, 4],
     "Deficiencies[1].Deficiencies2.Index": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
@@ -64,7 +64,7 @@ payload = {
     "Summary": "Web dev experience.",
     "PreferredJob": "Desarrollador",
     
-    # Experiences
+    
     f"Experiences.index": experience_id,
     f"Experiences[{experience_id}].IdPortal": 2,
     f"Experiences[{experience_id}].Job": "Programador de aplicaciones",
@@ -77,7 +77,7 @@ payload = {
     f"Experiences[{experience_id}].CurrentlyWorking": False,
     f"Experiences[{experience_id}].Description": "PROGRAMAR web apps",
     
-    # Studies
+    
     f"Studies.index": study_id,
     f"Studies[{study_id}].IdPortal": 2,
     f"Studies[{study_id}].Study": "Prepa",
@@ -87,7 +87,7 @@ payload = {
     f"Studies[{study_id}].BeginDate": "28/01/2015",
     f"Studies[{study_id}].EndDate": "01/08/2018",
     
-    # Skills
+  
     "Skills.index": [skill_id1, skill_id2, skill_id3],
     f"Skills[{skill_id1}].Skill": "comunicacion",
     f"Skills[{skill_id2}].Skill": "python",
@@ -99,7 +99,7 @@ payload = {
     "IdContractWorkType": 1,
     "HasAcceptedTerms": True,
     "HasAcceptedIJInformation": True,
-    "__RequestVerificationToken": "CfDJ8JPLgbr0W8hJnxPpFJDQtcnRfRqgxM-61cBrmRoxgbcfWA1XzO2XowcJZXwAhr_erQC8hhdyw_SPsZPnHEmOq9OYqjtAFTKSjsh41glSIaB-VWjcTD3RaJIZsATqv_u2B25BL8kscam73008VfMSVgo",
+    "__RequestVerificationToken": "",
     "AddressWithoutNumber": False,
     "HasDeficiency": False,
     "HasConsentUsePersonalData": False,
