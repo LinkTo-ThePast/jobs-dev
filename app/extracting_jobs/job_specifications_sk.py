@@ -8,10 +8,11 @@ def parse_tag(soup, html_tag):
   return label;
 
 ## For demo purposes: extract directly an URL from "bolsa de trabajo - suKarne" ---> but needs refactor
-JOB_URL = "https://www.sukarne.com/en/vacante/job";
+JOB_URL = "https://www.sukarne.com/es/vacante/job";
 job_response = requests.get(JOB_URL);
 
 soup = BeautifulSoup(job_response.text, 'html.parser');
+print(soup.text)
 
 ## Form structure 
 

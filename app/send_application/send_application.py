@@ -23,11 +23,11 @@ headers = {
 
 body = {
   'awsm_applicant_name': "Luis Diego",
-  'awsm_applicant_email': "LuisDiego@fes.est.com",
-  'awsm_applicant_phone': "5566707000",
+  'awsm_applicant_email': "luis@entropia.ai",
+  'awsm_applicant_phone': "5581055662",
   'awsm_applicant_letter': "Especialista técnico, reparación de distinto tipo de maquinaria.",
   'awsm_form_privacy_policy': "yes",
-  'awsm_job_id': "5261",
+  'awsm_job_id': "5262",
   'action': 'awsm_applicant_form_submission', 
 }
 
